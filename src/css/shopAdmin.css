@@ -1,0 +1,84 @@
+.shop-admin-container {
+  padding: 8px;
+  margin: 10px;
+  height: 95vh;
+  background-color: black;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.shop-admin-modal {
+  width: 500px;
+  margin-top: 20px;
+  height: fit-content;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.header-wrapper {
+  background-color: #d2d4d7;
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.header-title-wrapper {
+  color: black;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: black;
+}
+
+.body-container {
+  padding: 15px 40px;
+  color: black;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.form-label {
+  display: flex;
+  justify-self: start;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+
+.info {
+  color: orange;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.forgot-password {
+  color: gray;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+.modal-actions-wrapper {
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}

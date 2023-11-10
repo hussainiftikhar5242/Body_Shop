@@ -1,0 +1,134 @@
+.main-layout-wrapper {
+  padding: 20px;
+  padding-bottom: 83px;
+  width: calc(100% - 70px);
+  background-color: #efefef;
+}
+
+.header-divider {
+  width: 100%;
+  height: 2px;
+  margin-block: 10px;
+  background-color: black;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-text-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 1em;
+}
+
+.section-text {
+  white-space: nowrap;
+}
+.first-column-table,
+.second-column-table,
+.third-column-table {
+  gap: 1.3em;
+}
+
+.first-column-table {
+  width: 35%;
+}
+.second-column-table {
+  width: 35%;
+}
+.third-column-table {
+  width: 35%;
+}
+
+.timeline-text-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding: 10px;
+}
+
+.timeline-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px black;
+}
+
+.timeline-line {
+  margin-top: 2px;
+  width: 100%;
+  height: 1px;
+  background-color: #5b5b5b;
+}
+
+.drop-down-card {
+  box-shadow: 0 0 10 10 black;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 920px) {
+  .main-layout-wrapper {
+    padding: 10px;
+    padding-bottom: 63px;
+  }
+
+  .all-table-wrapper {
+    flex-wrap: wrap;
+  }
+  .first-column-table {
+    width: 60%;
+  }
+  .second-column-table {
+    width: 35%;
+  }
+  .third-column-table {
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+  }
+
+  .timeline-circle {
+    width: 20px; /* Adjust timeline circle size for smaller screens */
+    height: 20px;
+  }
+}
+
+.text-below-header {
+  justify-content: space-between;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 570px) {
+  .main-layout-wrapper {
+    padding: 10px;
+    padding-bottom: 63px;
+  }
+
+  .text-below-header {
+    flex-wrap: wrap;
+  }
+
+  .first-column-table {
+    width: 100%;
+  }
+  .cars-info-card {
+    flex-wrap: wrap;
+    justify-content: center;
+    .card {
+      width: 80%;
+    }
+  }
+
+  .second-column-table {
+    width: 100%;
+  }
+  .third-column-table {
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+  }
+}

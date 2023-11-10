@@ -1,0 +1,45 @@
+.app-bar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  width: 100%;
+  padding: 8px;
+}
+
+.search-field {
+  height: 30px;
+}
+
+.profile-name-field {
+  height: 25px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 1.2em;
+}
+
+@media (max-width: 570px) {
+  .app-bar-wrapper {
+    flex-direction: column;
+  }
+
+  .app-bar-title {
+    width: 50%;
+  }
+
+  .search-wrapper {
+    width: 50%;
+  }
+
+  .contact-container {
+    flex-wrap: wrap;
+    margin-top: 5px;
+    justify-content: end;
+    gap: 4px
+  }
+
+  .profile-search {
+    max-width: 40%;
+  }
+}
